@@ -31,6 +31,10 @@ body {
     display: flex;
 }
 
-button {
-    align-items: flex-start;
+@media (max-width: 651px) {
+    button {
+        width: 60px;
+        height: 60px;
+    }
 }
+
