@@ -23,4 +23,10 @@ body {
     color: white;
 }
 
+.nomostrar {
+    display: none;
+}
 
+.mostrar {
+    display: flex;
+}
