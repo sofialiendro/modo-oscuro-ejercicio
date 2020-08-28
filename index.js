@@ -10,10 +10,14 @@ boton.onclick = () => {
 }
 
 imagenClaro.onclick = () => {
-    imagenOscuro.classList.toggle("nomostrar")
-    imagenClaro.classList.toggle("mostrar")
+    imagenOscuro.classList.remove("nomostrar")
+    imagenClaro.classList.add("nomostrar")
 }
 
+imagenOscuro.onclick = () => {
+    imagenOscuro.classList.add("nomostrar")
+    imagenClaro.classList.remove("nomostrar")
+}
 
 
 
