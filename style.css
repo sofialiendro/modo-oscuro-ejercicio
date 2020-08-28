@@ -30,3 +30,7 @@ body {
 .mostrar {
     display: flex;
 }
+
+img {
+    align-items: flex-start;
+}
