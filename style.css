@@ -1,0 +1,26 @@
+img {
+    height: 50px;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+  
+.contenedor {
+    width: 600px;
+    padding: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.oscuro {
+    background-color: black;
+    color: white;
+}
+
+
