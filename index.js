@@ -1,10 +1,10 @@
-const modoOscuro = document.getElementsByTagName("body")
-const boton = document.getElementsByTagName("button")
-const imagenOscuro = document.getElementsByClassName("icono-oscuro")
+const modoOscuro = document.getElementById("body")
+const boton = document.getElementById("boton")
+const imagenOscuro = document.getElementById("icono-oscuro")
 
 boton.onclick = () => {
     modoOscuro.classList.toggle("oscuro")
-    imagenOscuro.classList.toggle("icono-oscuro")
+    imagenOscuro.classList.toggle("mostrar")
 }
 
 
