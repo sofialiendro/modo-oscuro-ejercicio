@@ -31,6 +31,6 @@ body {
     display: flex;
 }
 
-img {
+button {
     align-items: flex-start;
 }
